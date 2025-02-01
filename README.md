@@ -5,9 +5,15 @@ Projeto utilizado nos cursos de lógica de programação da Alura.
 
 ## 🚀🚀 Tecnologias
 <div>
-  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <a href="https://github.com/michelssousa5/Desafio-Amigo-Secreto/blob/main/index.html" target="_blank">
+    <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+  </a>&nbsp;
+  <a href="https://github.com/michelssousa5/Desafio-Amigo-Secreto/blob/main/style.css" target="_blank">
+    <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+  </a>&nbsp;
+  <a href="https://github.com/michelssousa5/Desafio-Amigo-Secreto/blob/main/app.js" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  </a>
 </div>
 
 ---
