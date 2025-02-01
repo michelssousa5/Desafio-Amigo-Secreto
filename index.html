@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Amigo Secreto</title>
 </head>
-
 <body>
     <main class="main-content">
         <header class="header-banner">
@@ -32,9 +31,20 @@
                     <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
                     Sortear amigo
                 </button>
+                <button class="button-reset" onclick="reiniciarSorteio()" aria-label="Reiniciar sorteio">
+                    Reiniciar Sorteio
+                </button>
             </div>
         </section>
     </main>
+
+    <!-- Modal de aviso -->
+    <div id="modalAviso" class="modal">
+        <div class="modal-content">
+            <p id="modalMensagem"></p>
+            <button onclick="fecharModal()">Fechar</button>
+        </div>
+    </div>
 
     <script src="app.js" defer></script>
 </body>

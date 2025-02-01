@@ -160,3 +160,69 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilo do botão de reiniciar */
+.button-reset {
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #ff4d4d; /* Vermelho para destacar */
+    color: var(--color-white);
+    margin-top: 10px; /* Espaçamento entre os botões */
+}
+
+.button-reset:hover {
+    background-color: #cc0000; /* Vermelho mais escuro no hover */
+}
+/*essa é parte do aviso/*
+/* Estilos do modal */
+.modal {
+    display: none; /* Oculta o modal por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escurecido */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Garante que o modal fique acima de tudo */
+}
+
+.modal-content {
+    background-color: #ffff99; /* Fundo amarelo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.modal-content p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000; /* Texto preto */
+    margin-bottom: 20px;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff4d4d; /* Botão vermelho */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #cc0000; /* Vermelho mais escuro no hover */
+}
