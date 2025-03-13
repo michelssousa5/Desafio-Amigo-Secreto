@@ -75,6 +75,8 @@ O objetivo foi criar uma aplicação prática e intuitiva para realizar sorteios
 
 ---
 
+Acesse o site http://michelssousa5.github.io/Desafio-Amigo-Secreto
+
 ## Aluno
 
 <div style="text-align: center;">
